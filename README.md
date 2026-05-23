@@ -1,2 +1,15 @@
 # Crim
-A Discord Bot written with Discord.js!
+
+A Discord bot built with [Discord.js](https://discord.js.org/)! ~ invite it to your server and get started instantly.
+
+🌐 **Website:** *(coming soon)*
+
+📨 **Invite Crim:** [Add to your server](#) *(link coming soon)*
+
+---
+
+## Features
+
+- *(coming soon)*
+
+---
