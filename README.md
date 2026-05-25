@@ -13,3 +13,9 @@ A Discord bot built with [Discord.js](https://discord.js.org/)! ~ invite it to y
 - *(coming soon)*
 
 ---
+
+## Credits
+
+- Website template by [Kacktide](https://github.com/Kacktide/Discord-Bot-Website-Template)!
+
+---
