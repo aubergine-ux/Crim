@@ -4,13 +4,13 @@ const commandsData = {
     title: "Info",
     commands: [
       {
-        name: "/command1",
-        description: "Description of command1",
+        name: "/info user {user}",
+        description: "Info about a User",
         permission: "All",
       },
       {
-        name: "/command2",
-        description: "Description of command2",
+        name: "/server",
+        description: "Info about the Server.",
         permission: "All",
       },
     ],
@@ -36,8 +36,8 @@ const commandsData = {
     title: "Fun/Misc",
     commands: [
       {
-        name: "/command5",
-        description: "Description of command5",
+        name: "/ping",
+        description: "Replies with Pong!",
         permission: "All",
       },
       {
