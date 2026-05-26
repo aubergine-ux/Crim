@@ -3,64 +3,39 @@ const commandsData = {
     icon: "📜",
     title: "Info",
     commands: [
-      {
-        name: "/info user {user}",
-        description: "Info about a User",
-        permission: "All",
-      },
-      {
-        name: "/server",
-        description: "Info about the Server.",
-        permission: "All",
-      },
+      { name: "/info user {user}", description: "Info about a user.", permission: "All" },
+      { name: "/info server", description: "Info about the server.", permission: "All" },
+      { name: "/server", description: "Info about the server.", permission: "All" },
+      { name: "/user", description: "Info about a user.", permission: "All" },
     ],
   },
   category2: {
     icon: "⚙️",
     title: "Utility",
     commands: [
-      {
-        name: "/command3",
-        description: "Description of command3",
-        permission: "Admin",
-      },
-      {
-        name: "/command4",
-        description: "Description of command4",
-        permission: "Admin",
-      },
+      { name: "/ping", description: "Replies with Pong!", permission: "All" },
+      { name: "/echo", description: "Replies with your input!", permission: "All" },
+      { name: "/guide", description: "Search discordjs.guide!", permission: "All" },
+      { name: "/mcstatus", description: "Check the status of a Minecraft server.", permission: "All" },
+      { name: "/reload", description: "Reloads a command.", permission: "Admin" },
     ],
   },
   category3: {
     icon: "🎮",
     title: "Fun/Misc",
     commands: [
-      {
-        name: "/ping",
-        description: "Replies with Pong!",
-        permission: "All",
-      },
-      {
-        name: "/command6",
-        description: "Description of command6",
-        permission: "All",
-      },
+      { name: "/dog", description: "Get a cute picture of a dog!", permission: "All" },
+      { name: "/gif", description: "Sends a random gif!", permission: "All" },
     ],
   },
   category4: {
     icon: "🛠️",
     title: "Moderation",
     commands: [
-      {
-        name: "/ban",
-        description: "Ban a User from the Server.",
-        permission: "Mod",
-      },
-      {
-        name: "/Kick",
-        description: "Kick a User from the Server.",
-        permission: "Mod",
-      },
+      { name: "/ban", description: "Ban a user from the server.", permission: "Mod" },
+      { name: "/kick", description: "Kick a user from the server.", permission: "Mod" },
+      { name: "/purge", description: "Delete multiple messages at once.", permission: "Mod" },
+      { name: "/timeout", description: "Timeout a user.", permission: "Mod" },
     ],
   },
 };
